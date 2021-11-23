@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $base;
+  font-family: $arial;
+  font-weight: $book;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1442px;
+  margin: 0 auto;
+}
+
+p { 
+  margin: 0;
+}

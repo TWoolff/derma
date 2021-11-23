@@ -1,0 +1,56 @@
+.header {
+  display: grid;
+  grid-template-columns: 160px 1fr 354px;
+  grid-template-rows: 50px 60px 70px 70px 70px;
+  background-color: $white;
+  height: 175px;
+  padding: 30px 175px;
+
+  @include first-break-point {
+    padding: 30px 50px;
+  }
+
+  &__logo {
+    grid-column-start: 1;
+    height: 49px;
+    width: auto;
+  }
+
+  &__search {
+    grid-column-start: 3;
+    background: url(../assets/img/search.png) no-repeat 95% 50%;
+    font-family: $sourcesans;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid rgba($black, 20%);
+    height: 51px;
+    width: 354px;
+  }
+
+  &__nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          font-family: $sourcesans;
+          font-weight: $book;
+          font-size: 16px;
+          color: $black;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+}

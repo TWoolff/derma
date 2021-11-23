@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: $blue;
+  height: 385px;
+  padding: 100px 175px 50px 175px;
+  
+  @include first-break-point {
+    padding: 100px 50px 50px 50px;
+  }
+
+  &__logo {
+    height: 90px;
+    width: auto;
+  }
+
+  &__nav {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 585px;
+    color: $white;
+    font-family: $sourcesans;
+    font-weight: $book;
+    font-size: 14px;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+  &__info {
+    align-self: flex-end;
+    justify-self: right;
+    width: 190px;
+    font-family: $franklin;
+    font-weight: $medium;
+    font-size: 14px;
+    line-height: 25px;
+    color: $white;
+    text-align: right;
+
+    a {
+      display: block;
+      margin-top: 30px;
+      line-height: 100%;
+      color: $white;
+    }
+  }
+}

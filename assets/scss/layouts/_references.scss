@@ -1,0 +1,20 @@
+.references {
+  background: rgba($white, 10%);
+  padding: 30px 175px;
+
+  @include first-break-point {
+    padding: 30px 50px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: $medium;
+    font-size: 24px;
+    color: $blue;
+
+    img {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+  }
+}
