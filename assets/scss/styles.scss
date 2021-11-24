@@ -1,9 +1,10 @@
 @import
-'base/variables',
-'base/mixins',
+'utilities/variables',
+'utilities/mixins',
 'base/typography',
 'base/global',
-'layouts/header',
-'layouts/navigation',
-'layouts/references',
-'layouts/footer';
+'components/header',
+'components/navigation',
+'components/hero',
+'components/references',
+'components/footer';

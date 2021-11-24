@@ -1,0 +1,11 @@
+.hero {
+  height: 520px;
+  background: url('../assets/img/IVA-Cover.jpg') no-repeat bottom right;
+  background-color: $darkblue;
+  padding: 190px 175px 0 175px;
+
+  h1 {
+    color: $white;
+    max-width: 490px;
+  }
+}
