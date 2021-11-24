@@ -1,0 +1,38 @@
+.videos {
+  background-color: $grey;
+  padding: 75px 175px;
+
+  @include first-break-point {
+    padding: 75px 50px;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px 140px;
+    gap: 65px 20px;
+    margin-top: 60px;
+
+    figure {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: $white;
+      height: 150px;
+
+      img {
+        width: 50px;
+        height: auto;
+        margin: 0 auto;
+        cursor: pointer;
+      }
+
+      figcaption {
+        background-color: $grey;
+        width: 250px;
+        padding-left: 20px;
+      }
+
+    }
+  }
+}

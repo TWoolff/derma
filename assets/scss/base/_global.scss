@@ -18,6 +18,27 @@ main {
   margin: 0 auto;
 }
 
-p { 
+p, figure { 
   margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: $purple;
+  padding: 15px 30px;
+  border-radius: 25px; 
+  color: $white;
+  font-weight: $demi;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  margin: 30px 0;
+}
+
+.purplelink {
+  display: block;
+  margin-top: 20px;
+  font-weight: $demi;
+  text-decoration: none;
+  color: $purple;
 }

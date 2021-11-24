@@ -1,0 +1,27 @@
+.tools {
+  background-color: $white;
+  padding: 75px 175px;
+
+  @include first-break-point {
+    padding: 125px 50px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    figure {
+      background-color: $grey;
+      width: 525px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    figcaption {
+      padding: 50px;
+    }
+  }
+}

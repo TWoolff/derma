@@ -11,13 +11,12 @@
   &__text {
     max-width: 535px;
     padding-top: 30px;
+  }
 
-    h2 {
-      color: $blue;
-    }
-  
-    p {
-      font-size: 18px;
-    }
+  &__image {
+    display: block;
+    width: 700px;
+    height: 400px;
+    margin: 115px 0 115px 25px;
   }
 }

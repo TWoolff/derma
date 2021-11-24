@@ -4,22 +4,14 @@
   background-color: $white;
   padding: 75px 175px;
 
+  @include second-break-point {
+    padding: 75px 50px;
+  }
+
   &__content {
     text-align: center;
     display: flex;
     flex-direction: column;
     width: 220px;
-
-    h4 {
-      color: $blue;
-    }
-
-    a {
-      display: block;
-      margin-top: 20px;
-      font-weight: $demi;
-      text-decoration: none;
-      color: $purple;
-    }
   }
 }

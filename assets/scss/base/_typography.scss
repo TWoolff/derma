@@ -13,10 +13,17 @@ h1, h2, h3, h4, h5, p {
   font-weight: $medium;
   letter-spacing: 0.5px;
   line-height: 130%;
+  margin: 0 0 20px 0;
 }
 
-h1, h2 {
+h1 {
   font-size: 28px; 
+  color: $white;
+}
+
+h2 {
+  font-size: 28px;
+  color: $blue;
 }
 
 h3 {
@@ -25,14 +32,26 @@ h3 {
 
 h4 {
   font-size: 20px;
+  color: $blue;
 }
 
 h5 {
   font-size: 16px;
+  font-weight: $demi;
+  color: $blue;
+  margin: 0 0 10px 0;
 }
 
 p {
   font-size: 16px;
   line-height: 150%;
   font-weight: $book;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font18 {
+  font-size: 18px;
 }
