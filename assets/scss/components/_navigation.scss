@@ -3,6 +3,10 @@
   padding: 20px 175px;
   width: 100%;
 
+  @include first-break-point {
+    padding: 20px 50px;
+  }
+
   &__main {
     position: relative;
     list-style: none;
@@ -11,6 +15,16 @@
 
     &--active {
       font-weight: $demi !important;
+      position: relative;
+
+      &:before {
+        content: '🞁';
+        position: absolute;
+        top: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: $grey;
+      }
     }
     
     li {
@@ -36,9 +50,24 @@
     max-width: 1442px;
     background-color: $grey;
     padding: 25px 175px;
+    box-sizing: border-box;
+
+    @include first-break-point {
+      left: -50px;
+      padding: 25px 50px;
+    }
 
     &--active {
       font-weight: $demi !important;
+
+      &:before {
+        content: '🞁';
+        position: absolute;
+        top: 39px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: $blue;
+      }
 
       &:after {
         content: '';
@@ -71,6 +100,11 @@
     max-width: 1442px;
     background-color: $blue;
     padding: 25px 175px;
+    box-sizing: border-box;
+
+    @include first-break-point {
+      padding: 25px 50px;
+    }
 
     &--active {
       font-weight: $demi !important;

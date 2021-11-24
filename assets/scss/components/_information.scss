@@ -1,0 +1,23 @@
+.information {
+  background-color: $grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 175px;
+
+  @include first-break-point {
+    padding: 30px 50px;
+  }
+
+  &__text {
+    max-width: 535px;
+    padding-top: 30px;
+
+    h2 {
+      color: $blue;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+}

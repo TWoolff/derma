@@ -4,6 +4,10 @@
   background-color: $darkblue;
   padding: 190px 175px 0 175px;
 
+  @include first-break-point {
+    padding: 190px 50px 0 50px;
+  }
+
   h1 {
     color: $white;
     max-width: 490px;

@@ -8,10 +8,31 @@ $book: 400;
 $medium: 500;
 $demi: 700;
 
-h1 {
+h1, h2, h3, h4, h5, p {
   font-family: $franklin;
   font-weight: $medium;
-  font-size: 28px;
   letter-spacing: 0.5px;
   line-height: 130%;
+}
+
+h1, h2 {
+  font-size: 28px; 
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: $book;
 }
