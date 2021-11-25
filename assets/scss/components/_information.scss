@@ -8,9 +8,17 @@
     padding: 30px 50px;
   }
 
+  @include second-break-point {
+    display: block;
+  }
+
   &__text {
     max-width: 535px;
     padding-top: 30px;
+
+    @include second-break-point {
+      max-width: 100%;
+    }
   }
 
   &__image {
@@ -18,5 +26,11 @@
     width: 700px;
     height: 400px;
     margin: 115px 0 115px 25px;
+
+    @include second-break-point {
+      width: 100%;
+      height: auto;
+      margin: 50px 0;
+    }
   }
 }

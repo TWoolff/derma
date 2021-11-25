@@ -33,6 +33,11 @@ p, figure {
   font-size: 20px;
   letter-spacing: 0.7px;
   margin: 30px 0;
+
+  &:hover {
+    background-color: $blue;
+    transition: all .5s ease;
+  }
 }
 
 .purplelink {
@@ -41,4 +46,9 @@ p, figure {
   font-weight: $demi;
   text-decoration: none;
   color: $purple;
+
+  &:hover {
+    color: $blue;
+    transition: all 1s ease;
+  }
 }
